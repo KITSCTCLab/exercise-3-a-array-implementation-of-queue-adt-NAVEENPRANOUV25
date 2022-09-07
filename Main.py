@@ -10,7 +10,7 @@ class Solution:
       """
 
     # Write your code here
-    def _init_(self, size):
+    def __init__(self, size):
         """Inits Solution with stack, queue, size, top, front and rear.
         Arguments:
           size: An integer to set the size of stack and queue.
